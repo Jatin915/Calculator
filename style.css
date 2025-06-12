@@ -52,23 +52,7 @@ button:hover{
 }
 
 #first{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 13px;
 }
-#second{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-}
-#third{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-}
-#fourth{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-}
-
